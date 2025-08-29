@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackea el Sistema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Hackea el Sistema</h1>
+        <label for="guess">Ingresa 4 dígitos (ej: 1234):</label>
+        <input type="text" id="guess" maxlength="4" placeholder="xxxx">
+        <button id="submit">Intentar Hackeo</button>
+        <button id="reset">Reiniciar</button>
+        <button id="show-key">Mostrar Clave</button>
+        <button id="solve-ai">Resolver con IA</button>
+
+        <div id="attempts"></div>
+        <div id="steps"></div>
+
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
